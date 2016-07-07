@@ -1,0 +1,57 @@
+
+
+h1{
+	font-size: 75px;
+
+
+}
+h2{
+	font-size: 60px;
+	font-style: italic;
+
+}
+
+h3{
+	font-size: 40px;
+	font-style: italic;
+
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+p { text-align: center;
+  font-style: italic;
+}
+
+
+
+body{
+	Text-align: center;
+	background: url("X:/General assembly/jeffblue88.github.io/unit_3/images/gradient.jpg");
+	
+	
+	background-size: cover;
+	
+
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 40px;
+}
+hr {
+	width:400px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none ;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+
+
+}
+
