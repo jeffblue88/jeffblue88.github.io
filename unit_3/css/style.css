@@ -25,13 +25,15 @@ ul {
 
 p { text-align: center;
   font-style: italic;
+  width: 50%;
 }
 
 
 
 body{
-	Text-align: center;
+	text-align: center;
 	background: url("X:/General assembly/jeffblue88.github.io/unit_3/images/gradient.jpg");
+	background-position: center;
 	
 	
 	background-size: cover;
