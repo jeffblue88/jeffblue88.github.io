@@ -1,11 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800|Crimson+Text);
+* { margin:0; padding:0; box-sizing:border-box; }
 
+body {
+	color:#222;
+	font-family: 'Crimson Text', serif;
+	font-size:16px;
+	line-height: 1.5em;
+}
 main{
 	background:#fff;
-	font-size: 16px; 
 	text-align: center;
 	position: relative;
-	color: #000;
 	margin: auto;
 	
 }
@@ -26,28 +31,19 @@ section{
 }
 
 
-
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
 h1{
-	font-family: 'Open Sans', sans-serif;
-		font-size: 4.5em;
-	text-align:center;
+	font-size: 4.5em;
 	color:#fff;
-
 }
-
 h2{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 3em;
-	text-align:center;
-	color:#000;
-
 }
-
-
 h3{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 2.5em;
-	text-align:center;
 	color:#fff;
 	font-style: italic;
 }
@@ -60,15 +56,12 @@ h4{
 hr{
 	border:none;
 	height:3px;
-	background-color: #000;
+	background-color: #222;
 	width:30em;
 	margin:1em auto;
 }
 
 p{
-	font-family: 'Crimson Text', serif;
-	font-size:2em;
-	line-height: 1.5em;
 	width: 30em;
 	margin: auto;
 	text-align: left;
@@ -77,7 +70,6 @@ p{
 }
 
 ul{
-    font-family: 'Crimson Text', serif;
     text-align: center;
     list-style-type: none;
     font-size: 2.5em;
@@ -98,7 +90,7 @@ a{
 	
 	font-weight: 600;
 	letter-spacing: 2px;
-	align: right;
+	text-align: right;
 	font-size: 2em;
 	
 
@@ -115,9 +107,9 @@ a{
 
 
 #puppy{
-	background:url(../images/dog_bath.jpg) ;
+	background:url(../images/dog_bath.jpg);
 	background-size: cover;
-	height:750px;
+	height: 100vh;
 	padding:10px 10px 200px 10px;
 }
 
