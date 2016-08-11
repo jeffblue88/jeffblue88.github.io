@@ -4,7 +4,7 @@
 
 body {
 	background-color:#F5F5F5;
-	font-family: 'Open Sans', sans-serif;
+
 
 }
 
@@ -14,6 +14,7 @@ header{
 
 nav {
 	background-color:#222222;
+	font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -22,8 +23,12 @@ a{
 	background-color:#222222;
 	color: #eee;
 	text-decoration:none;
-	display: inline-block;
+	display:block;
 	padding:20px 30px;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+
+
 }
 a:hover {
 	background-color:#DC143C;
@@ -48,7 +53,7 @@ h1 {
 	font-size:4em;
 }
 
-h2 {
+h4 {
 	font-size:3em;
 }
 
@@ -63,6 +68,7 @@ ul{
     list-style-type: none;
     color:#eee;
     font-size:1.2em;
+    font-family: 'open sans';
 
 
 }
@@ -74,50 +80,80 @@ footer {
 #splash {
 	background: url(../images/ferrari_cover.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
 	height: 55vh;
 	border: 1px black solid;
 	padding:20px;
+
 }
 
 #options {
-	/* padding: 2em; */
-	/* margin: auto; */
-	/* width: 30%; */
+	
+	padding: 2em;
+	margin: auto;
+	width: 30%;
+
 }
 
 
 .cta {
-	display:block;
-	max-width: 20em;
-	margin:1em auto;
-	text-align:center;
+	width: 75%;
+	height: 1em;
+	padding: 1.5em;
+	display: block;
+	margin:1em;
+	
+	display:table;
+	text-align: center;
 	background-color:rgba(34,34,34,.6);
-	}
+	font-size:1.2em;
+
+	text-align: center;
+	vertical-align: middle;
+	font-size:1.25em;
+
+}
 #wrap {
   /*width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
   */
-  margin: auto;
-  max-width: 75em;
+  margin: auto;   
 }
 
 
 .column {
 	text-align: center;
-	background-color:#222;
-	border: 1px black solid;
-	padding: 2em 4em;
 	float: left;
-	width: 49%;
-	margin: .5%;
-	min-height: 37em;
+	width:600px;
+	height:600px;
+	padding:20px;
+	margin: auto;
+	background-color:#222;
+}
+#left {
+
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom:2%;
+
+}
+#right {
+
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 35%;
+    margin-top: 2%;
+    margin-right: 12%;
+    margin-bottom:2%;
 }
 .detail {
-	width: 100%;
-	/* margin:3%; */
+	height:50%;
+	margin:3%;
 }
 
 .clearfix:after {
