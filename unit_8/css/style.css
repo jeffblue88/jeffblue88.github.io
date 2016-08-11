@@ -152,7 +152,7 @@ footer {
 	text-align:center;
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 440px) {
 
 	h1 {
 		font-size:3em;
@@ -175,6 +175,18 @@ footer {
 
 		padding:20px 15px;
 	}
+	#links1 {
+		display:inline-block;
+		float:none;
+		margin: auto;
+		text-align:center;
+	}
+	#links2 {
+		display:block;
+		margin: auto;
+		text-align:center;
+}
+
 
 
 
