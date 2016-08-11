@@ -137,13 +137,22 @@ footer {
 
 #footer {
 
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-  margin: auto;   
+  background-color:#222222;
+  width: 100%;
+
+ 
+
+}
+#links1 {
+	float:right;
+}
+#links2 {
+	display:block;
+	margin: auto;
+	text-align:center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 440px) {
 
 	h1 {
 		font-size:3em;
@@ -159,7 +168,12 @@ footer {
 		display:inline-block;
 		width:100%;
 		margin:auto;
+		min-height:27em;
 
+	}
+	a {
+
+		padding:20px 15px;
 	}
 
 
