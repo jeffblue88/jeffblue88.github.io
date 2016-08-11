@@ -176,9 +176,10 @@ footer {
 		padding:20px 15px;
 	}
 	#links1 {
-		display:inline-block;
+		display:block;
 		margin: auto;
 		text-align:center;
+		float:none;
 	}
 
 
