@@ -177,15 +177,10 @@ footer {
 	}
 	#links1 {
 		display:inline-block;
-		float:none;
 		margin: auto;
 		text-align:center;
 	}
-	#links2 {
-		display:block;
-		margin: auto;
-		text-align:center;
-}
+
 
 
 
