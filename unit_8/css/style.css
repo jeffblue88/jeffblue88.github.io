@@ -145,11 +145,21 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
+	h1 {
+		font-size:3em;
+	}
 
+	h2 {
+		font-size:2em;
+
+	}
+	
 	.column {
 		float:none;
 		display:inline-block;
 		width:100%;
+		margin:auto;
+
 	}
 
 
